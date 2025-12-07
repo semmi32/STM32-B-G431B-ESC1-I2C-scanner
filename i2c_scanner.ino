@@ -1,7 +1,7 @@
 #include <Wire.h>
 
 void setup() {
-  Serial.begin(115200);        // Инициализируем Serial (скорость как в вашем проекте)
+  Serial.begin(115200);        // Инициализируем Serial 
   Wire.begin();               // Запускаем I2C-интерфейс
   
   Serial.println("I2C Scanner started...");
